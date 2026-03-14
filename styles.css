@@ -2,8 +2,10 @@
 Today I'm just going to style the head and main divs bcause those matter for now. */
 body {background-color: black;
            margin: 0;
-           padding: 0; }
-           
+           padding: 0; 
+ }
+.content { display: flex;
+          flex-direction: row;}
 .header { background-color: #080847 ;
                 border: solid 3px blue; 
                 font: 20px "Eurostile", Sans-Serif ;
@@ -21,8 +23,11 @@ body {background-color: black;
                 border-radius: 10px; 
                 color: rgb(255, 255, 255);
                 width: 1180px;
-                margin: 0 auto; }
-
+                margin: 0 auto;
+                padding: 10px;
+                position:relative; }
+.image {border: solid 2px white; 
+        position: relative;}
 
 
 @font-face {
@@ -60,6 +65,14 @@ body {background-color: black;
 .navigation a:active {
   background-color: #00c;} 
 
+  
+.navigtion {
+  list-style: none;           /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+  gap: 10px;                  /* Space between buttons */
+}
+
 
   .right-top { background-color: #080847;
                 border: solid 3px blue; 
@@ -69,6 +82,7 @@ body {background-color: black;
                 width: 300px;
                  margin-left: auto;
                  margin-right: 10px;
+                 position: relative;
             
             }
   .left-top{background-color: #080847;
@@ -77,11 +91,14 @@ body {background-color: black;
                 border-radius: 10px; 
                 color: rgb(255, 255, 255);
                 width: 305px;
-                margin-left: 10px;}
+                margin-left: 10px;
+                position: relative}
   .left-bot {background-color: #080847;
                 border: solid 3px blue; 
                 font: 18px "Eurostile", Sans-Serif ;
                 border-radius: 10px; 
                 color: rgb(255, 255, 255);
                  width: 305px;
-                margin-left: 10px; } 
+                margin-left: 10px; 
+                position: relative;} 
+       
