@@ -12,6 +12,7 @@ body {background-color: black;
   gap: 12px 15px;
   place-items: center;
 }
+
 .header { background-color: #080847 ;
                 border: solid 3px blue; 
                 font: 20px "Eurostile", Sans-Serif ;
@@ -34,6 +35,12 @@ body {background-color: black;
                 padding: 10px;
                 position:relative; 
                 grid-column: 2; grid-row: 1 / -1;}
+.p  { margin: 0 auto; 
+      padding: 10px; 
+      color: white;
+      font: 20px "Eurostile", Sans-Serif; 
+      margin-left: auto; 
+      width: 95%; }
 .image {border: solid 2px white; 
         position: relative;}
 iframe { width: 99.25%}
@@ -44,11 +51,11 @@ iframe { width: 99.25%}
 }
 
 .navigation {
-  list-style: none;           /* Remove default bullets */
+  list-style: none;         
   padding: 0;
   margin: 0;
-  display: flex;              /* Arrange horizontally */
-  gap: 10px;                  /* Space between buttons */
+  display: flex;             
+  gap: 10px;                  
 }
 
 .navigation li {
@@ -57,11 +64,11 @@ iframe { width: 99.25%}
 
 .navigation a {
   display: block;
-  padding: 12px 24px;         /* Internal spacing */
-  background-color: #000;  /* Button color */
+  padding: 12px 24px;       
+  background-color: #000;  
   color: white;
   text-decoration: none;
-  border-radius: 8px;         /* Rounded corners */
+  border-radius: 8px;        
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
