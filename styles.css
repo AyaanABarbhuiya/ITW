@@ -30,7 +30,7 @@ body {background-color: black;
                 border-radius: 10px; 
                 color: rgb(255, 255, 255);
                 width: 95%;
-                min-height: 95%;
+                align-self: start;
                 margin: 0 auto;
                 padding: 10px;
                 position:relative; 
@@ -121,8 +121,10 @@ iframe { width: 99.25%}
                  margin-left: auto;
                  margin-right: 10px;
                  position: relative;
-                grid-column: 3; grid-row: 1;          
-            }
+                grid-column: 3; grid-row: 1; 
+                align-self: start;         
+                justify-self: left;
+              }
 
   
   .right-bot{ background-color: #080847;
@@ -135,7 +137,8 @@ iframe { width: 99.25%}
                  margin-right: 30px;
                  position: relative;
                 grid-column: 3; grid-row: 2;
-                }
+                align-self: start; 
+               }
                
             
   .left-top{background-color: #080847;
@@ -147,6 +150,7 @@ iframe { width: 99.25%}
                 margin-left: 10px;
                 position: relative;
                 grid-column: 1; grid-row: 1;
+                align-self: start;
               }
   .left-bot {background-color: #080847;
                 border: solid 3px blue; 
@@ -157,5 +161,7 @@ iframe { width: 99.25%}
                 margin-left: 10px; 
                 position: relative;
               grid-column: 1; grid-row: 2;
-              } 
+              align-self: start;   
+            }
+
        
