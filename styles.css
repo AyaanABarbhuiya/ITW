@@ -47,7 +47,7 @@ iframe { width: 99.25%}
 
 @font-face {
     font-family: Eurostile;
-    src: url("./eurostile.TTF");
+    src: url("/ITW/eurostile.TTF");
 }
 
 .navigation {
