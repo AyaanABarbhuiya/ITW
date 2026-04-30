@@ -15,7 +15,7 @@ body {background-color: black;
 
 .header { background-color: #080847 ;
                 border: solid 3px blue; 
-                font: 20px "Eurostile", Sans-Serif ;
+                font: 1.25em  "Eurostile", Sans-Serif ;
                 border-radius: 0px;
                 color: white;
                 width: 95%; 
@@ -26,7 +26,7 @@ body {background-color: black;
 
 .main { background-color: #080847;
                 border: solid 3px blue; 
-                font: 18px "Eurostile", Sans-Serif ;
+                font: 1.24em "Eurostile", Sans-Serif ;
                 border-radius: 10px; 
                 color: rgb(255, 255, 255);
                 width: 95%;
@@ -55,7 +55,8 @@ iframe { width: 99.25%}
   padding: 0;
   margin: 0;
   display: flex;             
-  gap: 10px;                  
+  gap: 10px
+  width: 95%;                  
 }
 
 .navigation li {
@@ -164,4 +165,6 @@ iframe { width: 99.25%}
               align-self: start;   
             }
 
-       
+@media () {
+
+}
